@@ -41,6 +41,9 @@ table {
 
 .characterentry {}
 
+.circular {
+  border-radius: 100%; /*circular er en klasse som definerer et element som sirkulært*/
+}
 /*************************************ID SELECTORS*************************************/
 /*** IDer er mer spesifikk og har høyere prioritet enn andre mer generelle regler
 men man kan BARE HA EN av den per HTML-side, eks en navbar eller overskrift***/
