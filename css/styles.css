@@ -1,10 +1,38 @@
+body {
+  background-color: white;
+}
+/*det er best practices å liste attributter i alfabetisk rekkefølge*/
+hr {
 
+  background-color: white;
+  border-color: #66bfbf;
+  border-style: dotted none none;
+  border-width: 1em;
+  height: 0em;
+  width: 10%;
+}
 
-body {background-color: white;}
-hr {background-color: white; border-color: #66bfbf; height: 0em; width: 10%; border-style: dotted none none; border-width: 1em;}
-h1 {color: #235952;font-family: sans-serif;}
-h2 {color: #66bfbf;}
-h3 {color: #235952;}
-table {background-color: #f0f0f0; width: 100%; position: relative;}
-ul.classandlvltitle {font-family: sans-serif; font-size: 130%;}
+h1 {
+  color: #235952;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #66bfbf;
+}
+
+h3 {
+  color: #235952;
+}
+
+table {
+  background-color: #f0f0f0;
+  position: relative;
+  width: 100%;
+}
+
+ul.classandlvltitle {
+  font-family: sans-serif;
+  font-size: 130%;
+}
 li.characterentry {}
