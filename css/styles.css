@@ -1,12 +1,12 @@
 /*************************************TAG SELECTORS******************************************/
 body {
-  background-color: white;
+  background-color: #d8ebb5;
 }
 
 /*det er best practices å liste attributter i alfabetisk rekkefølge*/
 hr {
-  background-color: white;
-  border-color: #66bfbf;
+  background-color: #d8ebb5;
+  border-color: #2b580c;
   border-style: dotted none none;
   border-width: 1em;
   height: 0em;
@@ -14,22 +14,23 @@ hr {
 }
 
 h1 {
-  color: #235952;
+  color: #2b580c;
   font-family: sans-serif;
 }
 
 h2 {
-  color: #66bfbf;
+  color: #639a67;
 }
 
 h3 {
-  color: #235952;
+  color: #2b580c;
 }
 
 table {
-  background-color: #f0f0f0;
+  background-color: #d9bf77;
   position: relative;
-  width: 100%;
+  width: 80%;
+  left: 10%;
 }
 
 
@@ -48,6 +49,22 @@ table {
 .hovereffect:hover{
 font-size: 300%;
 }
+.big{
+  font-size: 200%;
+}
+.centercharname{
+  position: relative;
+  top: 10%;
+  left: 30%;
+}
+
+.centercharimg{
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+
 /*************************************ID SELECTORS*************************************/
 /*** IDer er mer spesifikk og har høyere prioritet enn andre mer generelle regler
 men man kan BARE HA EN av den per HTML-side, eks en navbar eller overskrift***/
