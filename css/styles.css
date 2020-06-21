@@ -32,6 +32,7 @@ table {
   width: 100%;
 }
 
+
 /************************************CLASS SELECTORS************************************/
 /*hvert element i HTML-filen kan ha en eller flere klasser. Den vil motta attributter som er presisert i disse klassene*/
 .classandlvltitle {
@@ -43,6 +44,9 @@ table {
 
 .circular {
   border-radius: 100%; /*circular er en klasse som definerer et element som sirkulært*/
+}
+.hovereffect:hover{
+font-size: 300%;
 }
 /*************************************ID SELECTORS*************************************/
 /*** IDer er mer spesifikk og har høyere prioritet enn andre mer generelle regler
