@@ -63,7 +63,9 @@ font-size: 300%;
   top: 10%;
   left: 10%;
 }
-
+.topnav{
+  position: fixed;
+}
 
 /*************************************ID SELECTORS*************************************/
 /*** IDer er mer spesifikk og har høyere prioritet enn andre mer generelle regler
