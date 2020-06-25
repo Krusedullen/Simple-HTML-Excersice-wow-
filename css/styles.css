@@ -1,6 +1,7 @@
 /*************************************TAG SELECTORS******************************************/
 body {
-  background-color: #d8ebb5;
+  background-color: #edffea;
+  margin: 0;
 }
 
 /*det er best practices å liste attributter i alfabetisk rekkefølge*/
@@ -9,12 +10,11 @@ hr {
   border-color: #2b580c;
   border-style: dotted none none;
   border-width: 1em;
-  height: 0em;
+  height: 0;
   width: 10%;
 }
 
 h1 {
-  color: #2b580c;
   font-family: sans-serif;
 }
 
@@ -41,11 +41,15 @@ table {
   font-size: 130%;
 }
 
-.characterentry {}
-
 .circular {
   border-radius: 100%; /*circular er en klasse som definerer et element som sirkulært*/
 }
+
+.heading-div{
+  background-color: #216353;
+  color: white;
+}
+
 .hovereffect:hover{
 font-size: 300%;
 }
@@ -59,17 +63,17 @@ font-size: 300%;
 }
 
 .centercharimg{
+  left: 10%;
   position: relative;
   top: 10%;
-  left: 10%;
 }
 .topnav{
+  height: 4rem;
+  color: #edffea;
+  background-color: #216353;
   position: fixed;
 }
 
 /*************************************ID SELECTORS*************************************/
 /*** IDer er mer spesifikk og har høyere prioritet enn andre mer generelle regler
 men man kan BARE HA EN av den per HTML-side, eks en navbar eller overskrift***/
-#topnav {}
-
-#pagetitle {}
